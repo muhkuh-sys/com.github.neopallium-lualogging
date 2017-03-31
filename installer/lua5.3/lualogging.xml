@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jonchki-artifact version="1.0">
+	<info group="com.github.neopallium"
+	      module="lualogging"
+	      artifact="lua5.3-lualogging"
+	      version="${PROJECT_VERSION}"
+	      vcs-id="${PROJECT_VERSION_VCS}">
+		<license name="MIT"/>
+		<author name="Kepler Project" url="https://github.com/Neopallium/lualogging" />
+		<description>
+			LuaLogging provides a simple API to use logging features in Lua. Its design was based on log4j.
+		</description>
+	</info>
+	<dependencies>
+		<dependency group="org.lua" module="lua" artifact="lua5.3" version="5.3.3.1"/>
+	</dependencies>
+</jonchki-artifact>

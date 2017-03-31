@@ -64,7 +64,9 @@ tArcList51.AddFiles('',
                     'installer/lua5.1/install.lua')
 
 tArcList51.AddFiles('lua/',
-                    os.path.join(strDepackPath, 'src/logging.lua'),
+                    os.path.join(strDepackPath, 'src/logging.lua'))
+
+tArcList51.AddFiles('lua/logging',
                     os.path.join(strDepackPath, 'src/logging/console.lua'),
                     os.path.join(strDepackPath, 'src/logging/email.lua'),
                     os.path.join(strDepackPath, 'src/logging/file.lua'),
@@ -90,7 +92,9 @@ tArcList52.AddFiles('',
                     'installer/lua5.2/install.lua')
 
 tArcList52.AddFiles('lua/',
-                    os.path.join(strDepackPath, 'src/logging.lua'),
+                    os.path.join(strDepackPath, 'src/logging.lua'))
+
+tArcList52.AddFiles('lua/logging',
                     os.path.join(strDepackPath, 'src/logging/console.lua'),
                     os.path.join(strDepackPath, 'src/logging/email.lua'),
                     os.path.join(strDepackPath, 'src/logging/file.lua'),
@@ -114,7 +118,9 @@ tArcList53.AddFiles('',
                     'installer/lua5.3/install.lua')
 
 tArcList53.AddFiles('lua/',
-                    os.path.join(strDepackPath, 'src/logging.lua'),
+                    os.path.join(strDepackPath, 'src/logging.lua'))
+
+tArcList53.AddFiles('lua/logging',
                     os.path.join(strDepackPath, 'src/logging/console.lua'),
                     os.path.join(strDepackPath, 'src/logging/email.lua'),
                     os.path.join(strDepackPath, 'src/logging/file.lua'),

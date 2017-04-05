@@ -2,7 +2,7 @@
 <jonchki-artifact version="1.0">
 	<info group="com.github.neopallium"
 	      module="lualogging"
-	      artifact="lua5.2-lualogging"
+	      artifact="lualogging"
 	      version="${PROJECT_VERSION}"
 	      vcs-id="${PROJECT_VERSION_VCS}">
 		<license name="MIT"/>
@@ -12,6 +12,12 @@
 		</description>
 	</info>
 	<dependencies>
+		<dependency group="org.lua" module="lua" artifact="lua5.3" version="5.3.3.1"/>
+	</dependencies>
+	<dependencies>
 		<dependency group="org.lua" module="lua" artifact="lua5.2" version="5.2.4.1"/>
+	</dependencies>
+	<dependencies>
+		<dependency group="org.lua" module="lua" artifact="lua5.1" version="5.1.5.1"/>
 	</dependencies>
 </jonchki-artifact>
